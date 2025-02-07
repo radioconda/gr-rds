@@ -69,6 +69,7 @@ private:
  * each type 2B group contains 2 out of 32 RadioText characters;
  * this is used to count 0..15 and send all RadioText characters */
 	int d_g2_counter;
+	int d_g3_counter;
 /* points to the current buffer being prepared/streamed
  * used in create_group() and in work() */
 	int d_current_buffer;
