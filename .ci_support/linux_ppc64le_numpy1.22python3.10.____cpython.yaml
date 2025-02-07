@@ -1,9 +1,11 @@
+ace:
+- 8.0.2
 c_compiler:
 - gcc
 c_compiler_version:
-- '12'
+- '13'
 cdt_name:
-- cos7
+- conda
 channel_sources:
 - conda-forge
 channel_targets:
@@ -11,17 +13,17 @@ channel_targets:
 cxx_compiler:
 - gxx
 cxx_compiler_version:
-- '12'
+- '13'
 docker_image:
-- quay.io/condaforge/linux-anvil-cos7-x86_64
+- quay.io/condaforge/linux-anvil-x86_64:cos7
 gmp:
 - '6'
 gnuradio_core:
-- 3.10.10
+- 3.10.11
 gnuradio_extra_pin:
 - ''
 libboost_devel:
-- '1.82'
+- '1.84'
 numpy:
 - '1.22'
 pin_run_as_build:
